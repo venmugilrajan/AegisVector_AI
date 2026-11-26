@@ -248,21 +248,13 @@ frontend_dist = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fronte
 
 # 1. Main Default Route (/) -> Serve the GIS Surveillance Dashboard directly!
 @app.get("/")
+@app.get("/app")
+@app.get("/dashboard")
 def get_dashboard():
     dashboard_file = os.path.join(frontend_dist, "index.html")
     if os.path.exists(dashboard_file):
         return FileResponse(dashboard_file)
     return HTMLResponse("<h1>Dashboard loading...</h1>")
-
-# 2. Hero Presentation Route (/hero or /landing) -> Serve the 3D Globe Story Page
-@app.get("/hero")
-@app.get("/landing")
-def get_landing():
-    landing_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
-    if os.path.exists(landing_path):
-        with open(landing_path, "r", encoding="utf-8") as f:
-            return HTMLResponse(f.read())
-    return HTMLResponse("<h1>AegisVector AI Presentation</h1>")
 
 # Static assets for React dashboard
 if os.path.exists(frontend_dist):
