@@ -242,11 +242,23 @@ def get_evaluation_benchmarks():
     return []
 
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse, HTMLResponse
 
-# Mount React build if it exists
+# Root Landing Page: Serve the KV Freight 3D Globe Hero
+@app.get("/")
+def get_landing():
+    landing_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
+    if os.path.exists(landing_path):
+        with open(landing_path, "r", encoding="utf-8") as f:
+            return HTMLResponse(f.read())
+    return HTMLResponse("<h1>AegisVector AI Landing</h1>")
+
+# Mount React GIS Dashboard at /app
 frontend_dist = os.path.join(os.path.dirname(os.path.abspath(__file__)), "frontend", "dist")
 if os.path.exists(frontend_dist):
-    app.mount("/", StaticFiles(directory=frontend_dist, html=True), name="static")
+    app.mount("/app", StaticFiles(directory=frontend_dist, html=True), name="app_static")
+    # Also mount static assets
+    app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dist, "assets")), name="assets_static")
 
 if __name__ == "__main__":
     import uvicorn
