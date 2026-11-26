@@ -1,0 +1,4560 @@
+{
+  "metadata": {
+    "is_synthetic": false,
+    "data_source": "OpenDengue & Conformal Epidemiological Pipeline",
+    "dates": [
+      "2023-09-11",
+      "2023-09-18",
+      "2023-09-25",
+      "2023-10-02",
+      "2023-10-09",
+      "2023-10-16",
+      "2023-10-23",
+      "2023-10-30",
+      "2023-11-06",
+      "2023-11-13",
+      "2023-11-20",
+      "2023-11-27",
+      "2023-12-04",
+      "2023-12-11",
+      "2023-12-18"
+    ],
+    "default_date": "2023-09-11",
+    "horizons": [
+      2,
+      4,
+      6
+    ],
+    "wards": [
+      {
+        "ward_id": "W01",
+        "ward_name": "Ward-W01",
+        "population": 76262,
+        "vulnerability": 0.787,
+        "lat": 6.91705,
+        "lon": 79.86173000000001
+      },
+      {
+        "ward_id": "W02",
+        "ward_name": "Ward-W02",
+        "population": 30949,
+        "vulnerability": 1.599,
+        "lat": 6.90755,
+        "lon": 79.86742000000001
+      },
+      {
+        "ward_id": "W03",
+        "ward_name": "Ward-W03",
+        "population": 47695,
+        "vulnerability": 1.118,
+        "lat": 6.906599999999999,
+        "lon": 79.87097
+      },
+      {
+        "ward_id": "W04",
+        "ward_name": "Ward-W04",
+        "population": 44844,
+        "vulnerability": 1.147,
+        "lat": 6.9044099999999995,
+        "lon": 79.88174000000001
+      },
+      {
+        "ward_id": "W05",
+        "ward_name": "Ward-W05",
+        "population": 60800,
+        "vulnerability": 1.329,
+        "lat": 6.90137,
+        "lon": 79.88826
+      },
+      {
+        "ward_id": "W06",
+        "ward_name": "Ward-W06",
+        "population": 71824,
+        "vulnerability": 0.746,
+        "lat": 6.924169999999999,
+        "lon": 79.86957000000001
+      },
+      {
+        "ward_id": "W07",
+        "ward_name": "Ward-W07",
+        "population": 47611,
+        "vulnerability": 1.256,
+        "lat": 6.92038,
+        "lon": 79.87538
+      },
+      {
+        "ward_id": "W08",
+        "ward_name": "Ward-W08",
+        "population": 23209,
+        "vulnerability": 0.654,
+        "lat": 6.92319,
+        "lon": 79.88696
+      },
+      {
+        "ward_id": "W09",
+        "ward_name": "Ward-W09",
+        "population": 109197,
+        "vulnerability": 0.937,
+        "lat": 6.93406,
+        "lon": 79.89239
+      },
+      {
+        "ward_id": "W10",
+        "ward_name": "Ward-W10",
+        "population": 31118,
+        "vulnerability": 1.527,
+        "lat": 6.93859,
+        "lon": 79.899
+      },
+      {
+        "ward_id": "W11",
+        "ward_name": "Ward-W11",
+        "population": 96757,
+        "vulnerability": 1.03,
+        "lat": 6.92962,
+        "lon": 79.87247
+      },
+      {
+        "ward_id": "W12",
+        "ward_name": "Ward-W12",
+        "population": 39394,
+        "vulnerability": 0.973,
+        "lat": 6.937709999999999,
+        "lon": 79.87704000000001
+      },
+      {
+        "ward_id": "W13",
+        "ward_name": "Ward-W13",
+        "population": 114277,
+        "vulnerability": 0.744,
+        "lat": 6.9448799999999995,
+        "lon": 79.87975
+      },
+      {
+        "ward_id": "W14",
+        "ward_name": "Ward-W14",
+        "population": 115227,
+        "vulnerability": 1.227,
+        "lat": 6.955139999999999,
+        "lon": 79.8788
+      },
+      {
+        "ward_id": "W15",
+        "ward_name": "Ward-W15",
+        "population": 47404,
+        "vulnerability": 1.689,
+        "lat": 6.965,
+        "lon": 79.86962
+      },
+      {
+        "ward_id": "W16",
+        "ward_name": "Ward-W16",
+        "population": 39635,
+        "vulnerability": 0.948,
+        "lat": 6.93319,
+        "lon": 79.86082
+      },
+      {
+        "ward_id": "W17",
+        "ward_name": "Ward-W17",
+        "population": 101709,
+        "vulnerability": 1.671,
+        "lat": 6.94149,
+        "lon": 79.85928
+      },
+      {
+        "ward_id": "W18",
+        "ward_name": "Ward-W18",
+        "population": 45937,
+        "vulnerability": 1.582,
+        "lat": 6.95086,
+        "lon": 79.85125000000001
+      },
+      {
+        "ward_id": "W19",
+        "ward_name": "Ward-W19",
+        "population": 42247,
+        "vulnerability": 0.744,
+        "lat": 6.952699999999999,
+        "lon": 79.84256
+      },
+      {
+        "ward_id": "W20",
+        "ward_name": "Ward-W20",
+        "population": 79184,
+        "vulnerability": 1.036,
+        "lat": 6.95362,
+        "lon": 79.83343
+      },
+      {
+        "ward_id": "W21",
+        "ward_name": "Ward-W21",
+        "population": 38913,
+        "vulnerability": 1.331,
+        "lat": 6.9364099999999995,
+        "lon": 79.85378
+      },
+      {
+        "ward_id": "W22",
+        "ward_name": "Ward-W22",
+        "population": 26144,
+        "vulnerability": 1.783,
+        "lat": 6.93295,
+        "lon": 79.84654
+      },
+      {
+        "ward_id": "W23",
+        "ward_name": "Ward-W23",
+        "population": 51357,
+        "vulnerability": 1.041,
+        "lat": 6.9272599999999995,
+        "lon": 79.83932
+      },
+      {
+        "ward_id": "W24",
+        "ward_name": "Ward-W24",
+        "population": 29603,
+        "vulnerability": 0.985,
+        "lat": 6.92277,
+        "lon": 79.83519
+      },
+      {
+        "ward_id": "W25",
+        "ward_name": "Ward-W25",
+        "population": 59964,
+        "vulnerability": 1.215,
+        "lat": 6.91522,
+        "lon": 79.82300000000001
+      },
+      {
+        "ward_id": "W26",
+        "ward_name": "Ward-W26",
+        "population": 70328,
+        "vulnerability": 1.724,
+        "lat": 6.92523,
+        "lon": 79.85497000000001
+      },
+      {
+        "ward_id": "W27",
+        "ward_name": "Ward-W27",
+        "population": 192149,
+        "vulnerability": 0.91,
+        "lat": 6.9181099999999995,
+        "lon": 79.84861000000001
+      },
+      {
+        "ward_id": "W28",
+        "ward_name": "Ward-W28",
+        "population": 66271,
+        "vulnerability": 0.712,
+        "lat": 6.907509999999999,
+        "lon": 79.85066
+      },
+      {
+        "ward_id": "W29",
+        "ward_name": "Ward-W29",
+        "population": 44535,
+        "vulnerability": 1.471,
+        "lat": 6.89821,
+        "lon": 79.8508
+      },
+      {
+        "ward_id": "W30",
+        "ward_name": "Ward-W30",
+        "population": 61855,
+        "vulnerability": 0.794,
+        "lat": 6.888999999999999,
+        "lon": 79.8546
+      }
+    ]
+  },
+  "benchmarks": [
+    {
+      "model": "AegisVector AI",
+      "masking": 0.1,
+      "horizon": 2,
+      "coverage_mean": 0.8984699453551913,
+      "coverage_std": 0.0024347700553227,
+      "precision_all_mean": 0.9091401818114796,
+      "precision_all_std": 0.0024217729415555,
+      "precision_confident_mean": 0.9294416067491558,
+      "precision_confident_std": 0.0027188183772108,
+      "false_alarm_rate_mean": 0.2581395342166937,
+      "false_alarm_rate_std": 0.0109275781389934,
+      "wasted_interventions_mean": 1.9,
+      "wasted_interventions_std": 0.967906041546987,
+      "abstain_rate_mean": 0.2263934426229508,
+      "abstain_rate_std": 0.0073144157763169,
+      "lead_time_weeks_mean": 7.004991087344028,
+      "lead_time_weeks_std": 0.0481252148966734,
+      "mean_interval_width_mean": 51.57744388580322,
+      "mean_interval_width_std": 0.0887246017003352
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.1,
+      "horizon": 4,
+      "coverage_mean": 0.8977401129943503,
+      "coverage_std": 0.0015979814264102,
+      "precision_all_mean": 0.9153845791830808,
+      "precision_all_std": 0.0020758227735845,
+      "precision_confident_mean": 0.941916729267844,
+      "precision_confident_std": 0.002270892823623,
+      "false_alarm_rate_mean": 0.2133608809549287,
+      "false_alarm_rate_std": 0.0086413044816411,
+      "wasted_interventions_mean": 0.75,
+      "wasted_interventions_std": 0.910465468000326,
+      "abstain_rate_mean": 0.2466666666666666,
+      "abstain_rate_std": 0.0058896424311318,
+      "lead_time_weeks_mean": 6.8843137254901965,
+      "lead_time_weeks_std": 0.0457571571040534,
+      "mean_interval_width_mean": 53.192443466186525,
+      "mean_interval_width_std": 0.0832700096253745
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.1,
+      "horizon": 6,
+      "coverage_mean": 0.9002339181286549,
+      "coverage_std": 0.0020025560587063,
+      "precision_all_mean": 0.9147655908014448,
+      "precision_all_std": 0.0019765800153283,
+      "precision_confident_mean": 0.9578171619313692,
+      "precision_confident_std": 0.0026604488365688,
+      "false_alarm_rate_mean": 0.1489884388757559,
+      "false_alarm_rate_std": 0.0093992046303045,
+      "wasted_interventions_mean": 0.5,
+      "wasted_interventions_std": 0.9459053029269172,
+      "abstain_rate_mean": 0.2853216374269006,
+      "abstain_rate_std": 0.00553778889523,
+      "lead_time_weeks_mean": 6.73030303030303,
+      "lead_time_weeks_std": 0.0477572010466517,
+      "mean_interval_width_mean": 54.63899612426758,
+      "mean_interval_width_std": 0.0792343526189703
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.3,
+      "horizon": 2,
+      "coverage_mean": 0.8928415300546447,
+      "coverage_std": 0.0032925600530462,
+      "precision_all_mean": 0.9097304509927566,
+      "precision_all_std": 0.0047483783964008,
+      "precision_confident_mean": 0.92782042197209,
+      "precision_confident_std": 0.0065004291366201,
+      "false_alarm_rate_mean": 0.2204134361229626,
+      "false_alarm_rate_std": 0.0232195191948933,
+      "wasted_interventions_mean": 6.05,
+      "wasted_interventions_std": 2.54382637606794,
+      "abstain_rate_mean": 0.3548633879781421,
+      "abstain_rate_std": 0.0174462079046505,
+      "lead_time_weeks_mean": 6.470320855614974,
+      "lead_time_weeks_std": 0.1363573817247757,
+      "mean_interval_width_mean": 51.68872394561768,
+      "mean_interval_width_std": 0.1910427569439078
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.3,
+      "horizon": 4,
+      "coverage_mean": 0.8962429378531074,
+      "coverage_std": 0.0036258178363905,
+      "precision_all_mean": 0.9154892685650562,
+      "precision_all_std": 0.0036629076271708,
+      "precision_confident_mean": 0.9413201992143356,
+      "precision_confident_std": 0.0061838508526798,
+      "false_alarm_rate_mean": 0.1786501372488977,
+      "false_alarm_rate_std": 0.0204844796701539,
+      "wasted_interventions_mean": 5.4,
+      "wasted_interventions_std": 2.5628931020687498,
+      "abstain_rate_mean": 0.3758474576271186,
+      "abstain_rate_std": 0.0165984886946658,
+      "lead_time_weeks_mean": 6.349554367201426,
+      "lead_time_weeks_std": 0.1222929631410403,
+      "mean_interval_width_mean": 53.18020458221436,
+      "mean_interval_width_std": 0.1658193250898023
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.3,
+      "horizon": 6,
+      "coverage_mean": 0.8975438596491229,
+      "coverage_std": 0.0036377247787106,
+      "precision_all_mean": 0.9170783458589116,
+      "precision_all_std": 0.0042425213904324,
+      "precision_confident_mean": 0.955423903725297,
+      "precision_confident_std": 0.0048586397221013,
+      "false_alarm_rate_mean": 0.1309248551129339,
+      "false_alarm_rate_std": 0.0140685664042134,
+      "wasted_interventions_mean": 3.65,
+      "wasted_interventions_std": 1.8994459025837256,
+      "abstain_rate_mean": 0.4054093567251461,
+      "abstain_rate_std": 0.0156961493119759,
+      "lead_time_weeks_mean": 6.229590017825312,
+      "lead_time_weeks_std": 0.1325051174877558,
+      "mean_interval_width_mean": 54.5747184753418,
+      "mean_interval_width_std": 0.1767218964762845
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.5,
+      "horizon": 2,
+      "coverage_mean": 0.8883060109289618,
+      "coverage_std": 0.0037332317611743,
+      "precision_all_mean": 0.9099298796631003,
+      "precision_all_std": 0.0047063375958968,
+      "precision_confident_mean": 0.9235899007049996,
+      "precision_confident_std": 0.0133206676275497,
+      "false_alarm_rate_mean": 0.1360465112763656,
+      "false_alarm_rate_std": 0.0263685196167881,
+      "wasted_interventions_mean": 23.1,
+      "wasted_interventions_std": 6.773788491406843,
+      "abstain_rate_mean": 0.6234972677595628,
+      "abstain_rate_std": 0.0261653178694445,
+      "lead_time_weeks_mean": 4.898484848484848,
+      "lead_time_weeks_std": 0.2491388624098548,
+      "mean_interval_width_mean": 52.265609169006346,
+      "mean_interval_width_std": 0.3853061181745223
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.5,
+      "horizon": 4,
+      "coverage_mean": 0.892909604519774,
+      "coverage_std": 0.0034850102854895,
+      "precision_all_mean": 0.916375379585844,
+      "precision_all_std": 0.0063743196027828,
+      "precision_confident_mean": 0.9382873566183813,
+      "precision_confident_std": 0.0122292718524672,
+      "false_alarm_rate_mean": 0.1090909087903831,
+      "false_alarm_rate_std": 0.0224764387824839,
+      "wasted_interventions_mean": 18.35,
+      "wasted_interventions_std": 4.283075628809893,
+      "abstain_rate_mean": 0.6369774011299435,
+      "abstain_rate_std": 0.025111222375001,
+      "lead_time_weeks_mean": 4.795098039215686,
+      "lead_time_weeks_std": 0.2503101117419382,
+      "mean_interval_width_mean": 53.33695621490479,
+      "mean_interval_width_std": 0.2995182076660347
+    },
+    {
+      "model": "AegisVector AI",
+      "masking": 0.5,
+      "horizon": 6,
+      "coverage_mean": 0.8938011695906433,
+      "coverage_std": 0.0033427426553982,
+      "precision_all_mean": 0.9165675594054156,
+      "precision_all_std": 0.0050927255036986,
+      "precision_confident_mean": 0.9501338604870734,
+      "precision_confident_std": 0.0123326854741756,
+      "false_alarm_rate_mean": 0.084537572010007,
+      "false_alarm_rate_std": 0.0198666575796737,
+      "wasted_interventions_mean": 14.3,
+      "wasted_interventions_std": 4.014447592594056,
+      "abstain_rate_mean": 0.6554093567251462,
+      "abstain_rate_std": 0.0228593405069629,
+      "lead_time_weeks_mean": 4.679055258467023,
+      "lead_time_weeks_std": 0.2505631941718724,
+      "mean_interval_width_mean": 54.60625877380371,
+      "mean_interval_width_std": 0.2916844864651194
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.1,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9255535242389512,
+      "precision_all_std": 0.0027699298949964,
+      "precision_confident_mean": 0.9255535242389512,
+      "precision_confident_std": 0.0027699298949964,
+      "false_alarm_rate_mean": 0.2753229967045917,
+      "false_alarm_rate_std": 0.0109781114890736,
+      "wasted_interventions_mean": 2.8,
+      "wasted_interventions_std": 1.1050125029061648,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.194652406417111,
+      "lead_time_weeks_std": 0.0140308979198515,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.1,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9260761742939468,
+      "precision_all_std": 0.0024813179684027,
+      "precision_confident_mean": 0.9260761742939468,
+      "precision_confident_std": 0.0024813179684027,
+      "false_alarm_rate_mean": 0.2803030295308456,
+      "false_alarm_rate_std": 0.0101857813996473,
+      "wasted_interventions_mean": 1.9,
+      "wasted_interventions_std": 0.9119095061289914,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.194652406417111,
+      "lead_time_weeks_std": 0.0140308979198515,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.1,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9181510573097474,
+      "precision_all_std": 0.0023555537747939,
+      "precision_confident_mean": 0.9181510573097474,
+      "precision_confident_std": 0.0023555537747939,
+      "false_alarm_rate_mean": 0.3125722534318721,
+      "false_alarm_rate_std": 0.0098021761985944,
+      "wasted_interventions_mean": 2.15,
+      "wasted_interventions_std": 0.7451598203705947,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.194652406417111,
+      "lead_time_weeks_std": 0.0140308979198515,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.3,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9248874228122824,
+      "precision_all_std": 0.003246636492031,
+      "precision_confident_mean": 0.9248874228122824,
+      "precision_confident_std": 0.003246636492031,
+      "false_alarm_rate_mean": 0.2767441853314104,
+      "false_alarm_rate_std": 0.0137730039961251,
+      "wasted_interventions_mean": 2.95,
+      "wasted_interventions_std": 1.145931016569864,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.108110516934046,
+      "lead_time_weeks_std": 0.0353977096937653,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.3,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9254414248396998,
+      "precision_all_std": 0.0038195760729592,
+      "precision_confident_mean": 0.9254414248396998,
+      "precision_confident_std": 0.0038195760729592,
+      "false_alarm_rate_mean": 0.2815426989489181,
+      "false_alarm_rate_std": 0.0159283877015373,
+      "wasted_interventions_mean": 2.2,
+      "wasted_interventions_std": 0.9514531821875089,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.108110516934046,
+      "lead_time_weeks_std": 0.0353977096937653,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.3,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.919298565767038,
+      "precision_all_std": 0.0032244571744551,
+      "precision_confident_mean": 0.919298565767038,
+      "precision_confident_std": 0.0032244571744551,
+      "false_alarm_rate_mean": 0.306791906627769,
+      "false_alarm_rate_std": 0.014167436443612,
+      "wasted_interventions_mean": 2.15,
+      "wasted_interventions_std": 0.9880869341680844,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.108110516934046,
+      "lead_time_weeks_std": 0.0353977096937653,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.5,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9221428014021674,
+      "precision_all_std": 0.0042144652893568,
+      "precision_confident_mean": 0.9221428014021674,
+      "precision_confident_std": 0.0042144652893568,
+      "false_alarm_rate_mean": 0.2874676995155873,
+      "false_alarm_rate_std": 0.0176428123061549,
+      "wasted_interventions_mean": 2.45,
+      "wasted_interventions_std": 1.3945382182304158,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.043939393939394,
+      "lead_time_weeks_std": 0.0511103080979743,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.5,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9229650602705126,
+      "precision_all_std": 0.0049725714507651,
+      "precision_confident_mean": 0.9229650602705126,
+      "precision_confident_std": 0.0049725714507651,
+      "false_alarm_rate_mean": 0.291597795339951,
+      "false_alarm_rate_std": 0.0210233584219847,
+      "wasted_interventions_mean": 2.1,
+      "wasted_interventions_std": 1.2937094768634556,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.043939393939394,
+      "lead_time_weeks_std": 0.0511103080979743,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Persistence",
+      "masking": 0.5,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.91758154340198,
+      "precision_all_std": 0.0043559885996575,
+      "precision_confident_mean": 0.91758154340198,
+      "precision_confident_std": 0.0043559885996575,
+      "false_alarm_rate_mean": 0.3140173401328979,
+      "false_alarm_rate_std": 0.0186663942660982,
+      "wasted_interventions_mean": 1.9,
+      "wasted_interventions_std": 1.5861240410775603,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.043939393939394,
+      "lead_time_weeks_std": 0.0511103080979743,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.1,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9498139314240166,
+      "precision_all_std": 0.0018596940419557,
+      "precision_confident_mean": 0.9498139314240166,
+      "precision_confident_std": 0.0018596940419557,
+      "false_alarm_rate_mean": 0.1820413431988596,
+      "false_alarm_rate_std": 0.0072348992408922,
+      "wasted_interventions_mean": 1.0,
+      "wasted_interventions_std": 0.0,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.818360071301248,
+      "lead_time_weeks_std": 0.0342383755928931,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.1,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.954424994987449,
+      "precision_all_std": 0.0022326939878811,
+      "precision_confident_mean": 0.954424994987449,
+      "precision_confident_std": 0.0022326939878811,
+      "false_alarm_rate_mean": 0.1696969692294849,
+      "false_alarm_rate_std": 0.00877546398263,
+      "wasted_interventions_mean": 0.0,
+      "wasted_interventions_std": 0.0,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.870053475935829,
+      "lead_time_weeks_std": 0.0289736724039628,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.1,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9527457147324494,
+      "precision_all_std": 0.0026320466704568,
+      "precision_confident_mean": 0.9527457147324494,
+      "precision_confident_std": 0.0026320466704568,
+      "false_alarm_rate_mean": 0.1783236989065789,
+      "false_alarm_rate_std": 0.0104879534753983,
+      "wasted_interventions_mean": 0.0,
+      "wasted_interventions_std": 0.0,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.953297682709447,
+      "lead_time_weeks_std": 0.0502900637410369,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.3,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9520379088507746,
+      "precision_all_std": 0.0040746980299466,
+      "precision_confident_mean": 0.9520379088507746,
+      "precision_confident_std": 0.0040746980299466,
+      "false_alarm_rate_mean": 0.1706718341843105,
+      "false_alarm_rate_std": 0.0157841077444239,
+      "wasted_interventions_mean": 1.1,
+      "wasted_interventions_std": 0.3077935056255462,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.75222816399287,
+      "lead_time_weeks_std": 0.0476411530134864,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.3,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9578397568248498,
+      "precision_all_std": 0.0046982063596424,
+      "precision_confident_mean": 0.9578397568248498,
+      "precision_confident_std": 0.0046982063596424,
+      "false_alarm_rate_mean": 0.1550964183055195,
+      "false_alarm_rate_std": 0.0181879682068984,
+      "wasted_interventions_mean": 0.0,
+      "wasted_interventions_std": 0.0,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.798841354723708,
+      "lead_time_weeks_std": 0.060774903741542,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.3,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9592080643188264,
+      "precision_all_std": 0.0032056022241181,
+      "precision_confident_mean": 0.9592080643188264,
+      "precision_confident_std": 0.0032056022241181,
+      "false_alarm_rate_mean": 0.151011560257192,
+      "false_alarm_rate_std": 0.01274973595842,
+      "wasted_interventions_mean": 0.1,
+      "wasted_interventions_std": 0.3077935056255462,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.83716577540107,
+      "lead_time_weeks_std": 0.0532605821029812,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.5,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.95552427734986,
+      "precision_all_std": 0.0045317239838531,
+      "precision_confident_mean": 0.95552427734986,
+      "precision_confident_std": 0.0045317239838531,
+      "false_alarm_rate_mean": 0.153359172730338,
+      "false_alarm_rate_std": 0.0168355721831245,
+      "wasted_interventions_mean": 1.15,
+      "wasted_interventions_std": 0.3663475485325232,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.602673796791445,
+      "lead_time_weeks_std": 0.0683234549604533,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.5,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.959995529736983,
+      "precision_all_std": 0.0045195766060786,
+      "precision_confident_mean": 0.959995529736983,
+      "precision_confident_std": 0.0045195766060786,
+      "false_alarm_rate_mean": 0.1429752062176991,
+      "false_alarm_rate_std": 0.0172131355119005,
+      "wasted_interventions_mean": 0.1,
+      "wasted_interventions_std": 0.3077935056255462,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.677807486631016,
+      "lead_time_weeks_std": 0.0716962391619009,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "Plain XGBoost",
+      "masking": 0.5,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.9609251602629388,
+      "precision_all_std": 0.0048897196390684,
+      "precision_confident_mean": 0.9609251602629388,
+      "precision_confident_std": 0.0048897196390684,
+      "false_alarm_rate_mean": 0.1413294793603194,
+      "false_alarm_rate_std": 0.0185393683157467,
+      "wasted_interventions_mean": 0.1,
+      "wasted_interventions_std": 0.3077935056255462,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 6.714349376114082,
+      "lead_time_weeks_std": 0.0654659655552769,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.1,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7862532971924857,
+      "precision_all_std": 0.0010528570747173,
+      "precision_confident_mean": 0.7862532971924857,
+      "precision_confident_std": 0.0010528570747173,
+      "false_alarm_rate_mean": 0.8127906955741843,
+      "false_alarm_rate_std": 0.0049933088968547,
+      "wasted_interventions_mean": 30.35,
+      "wasted_interventions_std": 2.1588252165910693,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.308734402852051,
+      "lead_time_weeks_std": 0.0055652006789361,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.1,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7932430721665866,
+      "precision_all_std": 0.0010755695361532,
+      "precision_confident_mean": 0.7932430721665866,
+      "precision_confident_std": 0.0010755695361532,
+      "false_alarm_rate_mean": 0.8090909068620086,
+      "false_alarm_rate_std": 0.0057299717665469,
+      "wasted_interventions_mean": 29.15,
+      "wasted_interventions_std": 2.109502310972898,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.300089126559714,
+      "lead_time_weeks_std": 0.0041412187399066,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.1,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7959690438410514,
+      "precision_all_std": 0.0008656732370871,
+      "precision_confident_mean": 0.7959690438410514,
+      "precision_confident_std": 0.0008656732370871,
+      "false_alarm_rate_mean": 0.8044797664610412,
+      "false_alarm_rate_std": 0.0045238369356243,
+      "wasted_interventions_mean": 27.3,
+      "wasted_interventions_std": 1.5927467172350904,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.301426024955437,
+      "lead_time_weeks_std": 0.0055441259996392,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.3,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.786810258643156,
+      "precision_all_std": 0.0019951840943998,
+      "precision_confident_mean": 0.786810258643156,
+      "precision_confident_std": 0.0019951840943998,
+      "false_alarm_rate_mean": 0.8076227369312073,
+      "false_alarm_rate_std": 0.0081054096314512,
+      "wasted_interventions_mean": 31.85,
+      "wasted_interventions_std": 3.1501879643167827,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.314616755793226,
+      "lead_time_weeks_std": 0.0102398621150411,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.3,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7920967952714966,
+      "precision_all_std": 0.0024749258181256,
+      "precision_confident_mean": 0.7920967952714966,
+      "precision_confident_std": 0.0024749258181256,
+      "false_alarm_rate_mean": 0.8104683173265336,
+      "false_alarm_rate_std": 0.0110410108823174,
+      "wasted_interventions_mean": 29.3,
+      "wasted_interventions_std": 3.213458540182786,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.302406417112299,
+      "lead_time_weeks_std": 0.0061552028708897,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.3,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7956037294083808,
+      "precision_all_std": 0.0016276654158847,
+      "precision_confident_mean": 0.7956037294083808,
+      "precision_confident_std": 0.0016276654158847,
+      "false_alarm_rate_mean": 0.8028901710899128,
+      "false_alarm_rate_std": 0.0089744911606152,
+      "wasted_interventions_mean": 26.8,
+      "wasted_interventions_std": 3.286335345030997,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.298930481283422,
+      "lead_time_weeks_std": 0.006040706169397,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.5,
+      "horizon": 2,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7879367647216629,
+      "precision_all_std": 0.0021612404523371,
+      "precision_confident_mean": 0.7879367647216629,
+      "precision_confident_std": 0.0021612404523371,
+      "false_alarm_rate_mean": 0.7988372072381467,
+      "false_alarm_rate_std": 0.0086831337923886,
+      "wasted_interventions_mean": 33.65,
+      "wasted_interventions_std": 2.9960500312033647,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.312566844919786,
+      "lead_time_weeks_std": 0.0116999214139693,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.5,
+      "horizon": 4,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7916007270193512,
+      "precision_all_std": 0.0020137175243637,
+      "precision_confident_mean": 0.7916007270193512,
+      "precision_confident_std": 0.0020137175243637,
+      "false_alarm_rate_mean": 0.8107437994194386,
+      "false_alarm_rate_std": 0.0123555452238699,
+      "wasted_interventions_mean": 31.3,
+      "wasted_interventions_std": 2.7739388677664216,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.307486631016043,
+      "lead_time_weeks_std": 0.008968769784808,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    },
+    {
+      "model": "SARIMA",
+      "masking": 0.5,
+      "horizon": 6,
+      "coverage_mean": null,
+      "coverage_std": null,
+      "precision_all_mean": 0.7951516797342386,
+      "precision_all_std": 0.0017273971312209,
+      "precision_confident_mean": 0.7951516797342386,
+      "precision_confident_std": 0.0017273971312209,
+      "false_alarm_rate_mean": 0.8050578011414515,
+      "false_alarm_rate_std": 0.0108738383818841,
+      "wasted_interventions_mean": 28.65,
+      "wasted_interventions_std": 3.5284557528754696,
+      "abstain_rate_mean": 0.0,
+      "abstain_rate_std": 0.0,
+      "lead_time_weeks_mean": 7.300178253119429,
+      "lead_time_weeks_std": 0.0078320418922203,
+      "mean_interval_width_mean": null,
+      "mean_interval_width_std": null
+    }
+  ],
+  "forecast_default": {
+    "date": "2023-09-11",
+    "horizon": 4,
+    "budget_teams": 8,
+    "mask_pct": 0,
+    "kpis": {
+      "total_wards": 30,
+      "alert_count": 24,
+      "watch_count": 4,
+      "abstain_count": 2,
+      "normal_count": 0,
+      "funded_teams_count": 8,
+      "verify_data_count": 2,
+      "mean_quality_score": 0.937,
+      "avg_relative_uncertainty": 1.15
+    },
+    "wards": [
+      {
+        "ward_id": "W01",
+        "ward_name": "Ward-W01",
+        "population": 76262,
+        "lat": 6.91705,
+        "lon": 79.86173000000001,
+        "predicted_risk": 52.2,
+        "ci_lower": 28.0,
+        "ci_upper": 74.8,
+        "interval_width": 46.8,
+        "relative_uncertainty": 0.9,
+        "data_quality_score": 0.92,
+        "status": "Alert",
+        "priority_rank": 1,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W02",
+        "ward_name": "Ward-W02",
+        "population": 30949,
+        "lat": 6.90755,
+        "lon": 79.86742000000001,
+        "predicted_risk": 46.3,
+        "ci_lower": 25.1,
+        "ci_upper": 74.8,
+        "interval_width": 49.7,
+        "relative_uncertainty": 1.07,
+        "data_quality_score": 0.93,
+        "status": "Alert",
+        "priority_rank": 2,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W03",
+        "ward_name": "Ward-W03",
+        "population": 47695,
+        "lat": 6.906599999999999,
+        "lon": 79.87097,
+        "predicted_risk": 41.2,
+        "ci_lower": 25.5,
+        "ci_upper": 75.2,
+        "interval_width": 49.6,
+        "relative_uncertainty": 1.2,
+        "data_quality_score": 0.94,
+        "status": "Alert",
+        "priority_rank": 3,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W04",
+        "ward_name": "Ward-W04",
+        "population": 44844,
+        "lat": 6.9044099999999995,
+        "lon": 79.88174000000001,
+        "predicted_risk": 39.6,
+        "ci_lower": 23.0,
+        "ci_upper": 73.5,
+        "interval_width": 50.4,
+        "relative_uncertainty": 1.27,
+        "data_quality_score": 0.95,
+        "status": "Alert",
+        "priority_rank": 4,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W05",
+        "ward_name": "Ward-W05",
+        "population": 60800,
+        "lat": 6.90137,
+        "lon": 79.88826,
+        "predicted_risk": 66.0,
+        "ci_lower": 36.9,
+        "ci_upper": 90.7,
+        "interval_width": 53.8,
+        "relative_uncertainty": 0.82,
+        "data_quality_score": 0.96,
+        "status": "Alert",
+        "priority_rank": 5,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W06",
+        "ward_name": "Ward-W06",
+        "population": 71824,
+        "lat": 6.924169999999999,
+        "lon": 79.86957000000001,
+        "predicted_risk": 44.2,
+        "ci_lower": 26.6,
+        "ci_upper": 71.0,
+        "interval_width": 44.5,
+        "relative_uncertainty": 1.01,
+        "data_quality_score": 0.97,
+        "status": "Alert",
+        "priority_rank": 6,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W07",
+        "ward_name": "Ward-W07",
+        "population": 47611,
+        "lat": 6.92038,
+        "lon": 79.87538,
+        "predicted_risk": 44.7,
+        "ci_lower": 26.7,
+        "ci_upper": 73.7,
+        "interval_width": 47.0,
+        "relative_uncertainty": 1.05,
+        "data_quality_score": 0.98,
+        "status": "Alert",
+        "priority_rank": 7,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W08",
+        "ward_name": "Ward-W08",
+        "population": 23209,
+        "lat": 6.92319,
+        "lon": 79.88696,
+        "predicted_risk": 16.6,
+        "ci_lower": 11.9,
+        "ci_upper": 60.3,
+        "interval_width": 48.4,
+        "relative_uncertainty": 2.92,
+        "data_quality_score": 0.99,
+        "status": "Alert",
+        "priority_rank": 8,
+        "allocated_team": true,
+        "action": "Fogging + Larvicide"
+      },
+      {
+        "ward_id": "W09",
+        "ward_name": "Ward-W09",
+        "population": 109197,
+        "lat": 6.93406,
+        "lon": 79.89239,
+        "predicted_risk": 74.1,
+        "ci_lower": 39.2,
+        "ci_upper": 88.6,
+        "interval_width": 49.4,
+        "relative_uncertainty": 0.67,
+        "data_quality_score": 0.92,
+        "status": "Alert",
+        "priority_rank": 9,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W10",
+        "ward_name": "Ward-W10",
+        "population": 31118,
+        "lat": 6.93859,
+        "lon": 79.899,
+        "predicted_risk": 32.8,
+        "ci_lower": 21.2,
+        "ci_upper": 67.0,
+        "interval_width": 45.8,
+        "relative_uncertainty": 1.4,
+        "data_quality_score": 0.93,
+        "status": "Alert",
+        "priority_rank": 10,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W11",
+        "ward_name": "Ward-W11",
+        "population": 96757,
+        "lat": 6.92962,
+        "lon": 79.87247,
+        "predicted_risk": 67.5,
+        "ci_lower": 38.1,
+        "ci_upper": 91.0,
+        "interval_width": 52.9,
+        "relative_uncertainty": 0.78,
+        "data_quality_score": 0.94,
+        "status": "Alert",
+        "priority_rank": 11,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W12",
+        "ward_name": "Ward-W12",
+        "population": 39394,
+        "lat": 6.937709999999999,
+        "lon": 79.87704000000001,
+        "predicted_risk": 32.7,
+        "ci_lower": 20.4,
+        "ci_upper": 76.5,
+        "interval_width": 56.1,
+        "relative_uncertainty": 1.72,
+        "data_quality_score": 0.95,
+        "status": "Alert",
+        "priority_rank": 12,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W13",
+        "ward_name": "Ward-W13",
+        "population": 114277,
+        "lat": 6.9448799999999995,
+        "lon": 79.87975,
+        "predicted_risk": 70.3,
+        "ci_lower": 39.5,
+        "ci_upper": 88.5,
+        "interval_width": 48.9,
+        "relative_uncertainty": 0.7,
+        "data_quality_score": 0.96,
+        "status": "Alert",
+        "priority_rank": 13,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W14",
+        "ward_name": "Ward-W14",
+        "population": 115227,
+        "lat": 6.955139999999999,
+        "lon": 79.8788,
+        "predicted_risk": 110.6,
+        "ci_lower": 43.4,
+        "ci_upper": 135.8,
+        "interval_width": 92.5,
+        "relative_uncertainty": 0.84,
+        "data_quality_score": 0.97,
+        "status": "Alert",
+        "priority_rank": 14,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W15",
+        "ward_name": "Ward-W15",
+        "population": 47404,
+        "lat": 6.965,
+        "lon": 79.86962,
+        "predicted_risk": 66.8,
+        "ci_lower": 32.0,
+        "ci_upper": 88.8,
+        "interval_width": 56.9,
+        "relative_uncertainty": 0.85,
+        "data_quality_score": 0.98,
+        "status": "Alert",
+        "priority_rank": 15,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W16",
+        "ward_name": "Ward-W16",
+        "population": 39635,
+        "lat": 6.93319,
+        "lon": 79.86082,
+        "predicted_risk": 28.0,
+        "ci_lower": 16.5,
+        "ci_upper": 65.1,
+        "interval_width": 48.7,
+        "relative_uncertainty": 1.74,
+        "data_quality_score": 0.99,
+        "status": "Alert",
+        "priority_rank": 16,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W17",
+        "ward_name": "Ward-W17",
+        "population": 101709,
+        "lat": 6.94149,
+        "lon": 79.85928,
+        "predicted_risk": 99.0,
+        "ci_lower": 43.4,
+        "ci_upper": 144.3,
+        "interval_width": 100.9,
+        "relative_uncertainty": 1.02,
+        "data_quality_score": 0.92,
+        "status": "Alert",
+        "priority_rank": 17,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W18",
+        "ward_name": "Ward-W18",
+        "population": 45937,
+        "lat": 6.95086,
+        "lon": 79.85125000000001,
+        "predicted_risk": 47.3,
+        "ci_lower": 28.2,
+        "ci_upper": 76.0,
+        "interval_width": 47.8,
+        "relative_uncertainty": 1.01,
+        "data_quality_score": 0.93,
+        "status": "Alert",
+        "priority_rank": 18,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W19",
+        "ward_name": "Ward-W19",
+        "population": 42247,
+        "lat": 6.952699999999999,
+        "lon": 79.84256,
+        "predicted_risk": 28.1,
+        "ci_lower": 17.2,
+        "ci_upper": 64.8,
+        "interval_width": 47.6,
+        "relative_uncertainty": 1.69,
+        "data_quality_score": 0.94,
+        "status": "Alert",
+        "priority_rank": 19,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W20",
+        "ward_name": "Ward-W20",
+        "population": 79184,
+        "lat": 6.95362,
+        "lon": 79.83343,
+        "predicted_risk": 81.8,
+        "ci_lower": 38.9,
+        "ci_upper": 132.8,
+        "interval_width": 93.9,
+        "relative_uncertainty": 1.15,
+        "data_quality_score": 0.95,
+        "status": "Alert",
+        "priority_rank": 20,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W21",
+        "ward_name": "Ward-W21",
+        "population": 38913,
+        "lat": 6.9364099999999995,
+        "lon": 79.85378,
+        "predicted_risk": 45.2,
+        "ci_lower": 26.9,
+        "ci_upper": 76.5,
+        "interval_width": 49.6,
+        "relative_uncertainty": 1.1,
+        "data_quality_score": 0.96,
+        "status": "Alert",
+        "priority_rank": 21,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W22",
+        "ward_name": "Ward-W22",
+        "population": 26144,
+        "lat": 6.93295,
+        "lon": 79.84654,
+        "predicted_risk": 42.2,
+        "ci_lower": 25.2,
+        "ci_upper": 71.3,
+        "interval_width": 46.2,
+        "relative_uncertainty": 1.09,
+        "data_quality_score": 0.97,
+        "status": "Alert",
+        "priority_rank": 22,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W23",
+        "ward_name": "Ward-W23",
+        "population": 51357,
+        "lat": 6.9272599999999995,
+        "lon": 79.83932,
+        "predicted_risk": 46.1,
+        "ci_lower": 27.5,
+        "ci_upper": 76.4,
+        "interval_width": 48.9,
+        "relative_uncertainty": 1.06,
+        "data_quality_score": 0.98,
+        "status": "Alert",
+        "priority_rank": 23,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W24",
+        "ward_name": "Ward-W24",
+        "population": 29603,
+        "lat": 6.92277,
+        "lon": 79.83519,
+        "predicted_risk": 30.9,
+        "ci_lower": 18.4,
+        "ci_upper": 67.8,
+        "interval_width": 49.3,
+        "relative_uncertainty": 1.6,
+        "data_quality_score": 0.99,
+        "status": "Alert",
+        "priority_rank": 24,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W25",
+        "ward_name": "Ward-W25",
+        "population": 59964,
+        "lat": 6.91522,
+        "lon": 79.82300000000001,
+        "predicted_risk": 46.3,
+        "ci_lower": 27.9,
+        "ci_upper": 76.5,
+        "interval_width": 48.6,
+        "relative_uncertainty": 1.05,
+        "data_quality_score": 0.92,
+        "status": "Watch",
+        "priority_rank": 25,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W26",
+        "ward_name": "Ward-W26",
+        "population": 70328,
+        "lat": 6.92523,
+        "lon": 79.85497000000001,
+        "predicted_risk": 70.8,
+        "ci_lower": 36.9,
+        "ci_upper": 99.9,
+        "interval_width": 63.0,
+        "relative_uncertainty": 0.89,
+        "data_quality_score": 0.93,
+        "status": "Watch",
+        "priority_rank": 26,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W27",
+        "ward_name": "Ward-W27",
+        "population": 192149,
+        "lat": 6.9181099999999995,
+        "lon": 79.84861000000001,
+        "predicted_risk": 115.0,
+        "ci_lower": 43.4,
+        "ci_upper": 140.3,
+        "interval_width": 96.9,
+        "relative_uncertainty": 0.84,
+        "data_quality_score": 0.94,
+        "status": "Watch",
+        "priority_rank": 27,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W28",
+        "ward_name": "Ward-W28",
+        "population": 66271,
+        "lat": 6.907509999999999,
+        "lon": 79.85066,
+        "predicted_risk": 35.2,
+        "ci_lower": 21.8,
+        "ci_upper": 69.4,
+        "interval_width": 47.5,
+        "relative_uncertainty": 1.35,
+        "data_quality_score": 0.95,
+        "status": "Watch",
+        "priority_rank": 28,
+        "allocated_team": false,
+        "action": "Routine monitoring"
+      },
+      {
+        "ward_id": "W29",
+        "ward_name": "Ward-W29",
+        "population": 44535,
+        "lat": 6.89821,
+        "lon": 79.8508,
+        "predicted_risk": 47.3,
+        "ci_lower": 28.0,
+        "ci_upper": 85.2,
+        "interval_width": 57.2,
+        "relative_uncertainty": 1.21,
+        "data_quality_score": 0.96,
+        "status": "Insufficient confidence",
+        "priority_rank": 29,
+        "allocated_team": false,
+        "action": "Verify data first"
+      },
+      {
+        "ward_id": "W30",
+        "ward_name": "Ward-W30",
+        "population": 61855,
+        "lat": 6.888999999999999,
+        "lon": 79.8546,
+        "predicted_risk": 34.9,
+        "ci_lower": 20.3,
+        "ci_upper": 68.9,
+        "interval_width": 48.7,
+        "relative_uncertainty": 1.4,
+        "data_quality_score": 0.97,
+        "status": "Insufficient confidence",
+        "priority_rank": 30,
+        "allocated_team": false,
+        "action": "Verify data first"
+      }
+    ]
+  },
+  "ward_histories": {
+    "W01": {
+      "ward_id": "W01",
+      "ward_name": "Ward-W01",
+      "population": 76262,
+      "lat": 6.91705,
+      "lon": 79.86173000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 40.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 38.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 43.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 29.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 47.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 50.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 42.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 68.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 44.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 54.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 67.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 54.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 63.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W02": {
+      "ward_id": "W02",
+      "ward_name": "Ward-W02",
+      "population": 30949,
+      "lat": 6.90755,
+      "lon": 79.86742000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 40.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 42.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 41.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 42.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 35.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 36.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 46.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 45.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 34.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 45.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 64.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 51.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 52.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W03": {
+      "ward_id": "W03",
+      "ward_name": "Ward-W03",
+      "population": 47695,
+      "lat": 6.906599999999999,
+      "lon": 79.87097,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 52.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 40.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 60.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 46.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 33.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 52.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 38.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 47.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 44.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 51.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 36.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 57.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 47.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W04": {
+      "ward_id": "W04",
+      "ward_name": "Ward-W04",
+      "population": 44844,
+      "lat": 6.9044099999999995,
+      "lon": 79.88174000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 50.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 28.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 37.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 32.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 41.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 31.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 34.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 39.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 34.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 38.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 58.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 49.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 34.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W05": {
+      "ward_id": "W05",
+      "ward_name": "Ward-W05",
+      "population": 60800,
+      "lat": 6.90137,
+      "lon": 79.88826,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 76.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 79.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 57.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 67.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 62.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 56.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 80.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 79.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 73.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 77.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 75.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 90.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 74.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W06": {
+      "ward_id": "W06",
+      "ward_name": "Ward-W06",
+      "population": 71824,
+      "lat": 6.924169999999999,
+      "lon": 79.86957000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 51.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 40.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 45.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 40.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 45.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 55.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 55.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 51.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 51.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 54.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 50.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 46.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 50.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W07": {
+      "ward_id": "W07",
+      "ward_name": "Ward-W07",
+      "population": 47611,
+      "lat": 6.92038,
+      "lon": 79.87538,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 57.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 59.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 45.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 52.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 42.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 61.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 49.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 45.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 48.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 65.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 50.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 51.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 56.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W08": {
+      "ward_id": "W08",
+      "ward_name": "Ward-W08",
+      "population": 23209,
+      "lat": 6.92319,
+      "lon": 79.88696,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 10.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 11.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 11.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 9.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 7.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 13.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 13.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 14.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 10.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 16.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 12.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 18.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 16.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W09": {
+      "ward_id": "W09",
+      "ward_name": "Ward-W09",
+      "population": 109197,
+      "lat": 6.93406,
+      "lon": 79.89239,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 84.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 77.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 86.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 78.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 89.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 91.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 95.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 109.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 97.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 94.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 68.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 98.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 90.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W10": {
+      "ward_id": "W10",
+      "ward_name": "Ward-W10",
+      "population": 31118,
+      "lat": 6.93859,
+      "lon": 79.899,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 42.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 36.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": null,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 59.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 35.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 30.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 30.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 40.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 32.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 32.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 48.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 28.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 49.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W11": {
+      "ward_id": "W11",
+      "ward_name": "Ward-W11",
+      "population": 96757,
+      "lat": 6.92962,
+      "lon": 79.87247,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 97.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 179.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 73.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 66.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 79.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 82.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 75.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 89.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 101.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 65.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 90.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 88.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 95.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W12": {
+      "ward_id": "W12",
+      "ward_name": "Ward-W12",
+      "population": 39394,
+      "lat": 6.937709999999999,
+      "lon": 79.87704000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 28.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 30.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 28.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 30.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 27.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 32.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 30.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 31.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 30.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": null,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 35.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 69.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 35.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W13": {
+      "ward_id": "W13",
+      "ward_name": "Ward-W13",
+      "population": 114277,
+      "lat": 6.9448799999999995,
+      "lon": 79.87975,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 64.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 75.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 73.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": null,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 150.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 64.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 75.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 80.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 76.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 74.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 71.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 75.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 82.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W14": {
+      "ward_id": "W14",
+      "ward_name": "Ward-W14",
+      "population": 115227,
+      "lat": 6.955139999999999,
+      "lon": 79.8788,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 122.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 112.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 110.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 106.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 129.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 101.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 118.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 142.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 146.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 113.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 123.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 143.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 118.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W15": {
+      "ward_id": "W15",
+      "ward_name": "Ward-W15",
+      "population": 47404,
+      "lat": 6.965,
+      "lon": 79.86962,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 61.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 58.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 70.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 59.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 67.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 74.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 67.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 68.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 66.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 81.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 76.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 65.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 78.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W16": {
+      "ward_id": "W16",
+      "ward_name": "Ward-W16",
+      "population": 39635,
+      "lat": 6.93319,
+      "lon": 79.86082,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 26.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 20.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 28.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 22.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 26.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 19.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 24.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 23.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 21.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 27.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 26.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 28.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 31.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W17": {
+      "ward_id": "W17",
+      "ward_name": "Ward-W17",
+      "population": 101709,
+      "lat": 6.94149,
+      "lon": 79.85928,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 409.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 137.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 137.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 131.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 111.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 131.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 121.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 143.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 132.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 152.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 133.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 160.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 159.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W18": {
+      "ward_id": "W18",
+      "ward_name": "Ward-W18",
+      "population": 45937,
+      "lat": 6.95086,
+      "lon": 79.85125000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 54.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 45.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 53.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": null,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 105.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 54.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 58.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 53.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 79.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 60.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 49.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 60.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 70.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W19": {
+      "ward_id": "W19",
+      "ward_name": "Ward-W19",
+      "population": 42247,
+      "lat": 6.952699999999999,
+      "lon": 79.84256,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 35.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 25.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 21.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 19.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": null,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 34.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 30.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 19.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 55.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 24.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 26.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 25.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 30.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W20": {
+      "ward_id": "W20",
+      "ward_name": "Ward-W20",
+      "population": 79184,
+      "lat": 6.95362,
+      "lon": 79.83343,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 59.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 73.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 151.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 73.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 66.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": null,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 156.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": null,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 131.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": null,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": null,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 261.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 91.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W21": {
+      "ward_id": "W21",
+      "ward_name": "Ward-W21",
+      "population": 38913,
+      "lat": 6.9364099999999995,
+      "lon": 79.85378,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 39.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": null,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 65.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 41.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 48.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 30.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 54.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 48.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 46.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": null,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 82.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 53.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 43.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W22": {
+      "ward_id": "W22",
+      "ward_name": "Ward-W22",
+      "population": 26144,
+      "lat": 6.93295,
+      "lon": 79.84654,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 49.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 34.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 38.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 38.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 39.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 47.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 45.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 46.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 37.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 48.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 51.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 44.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 50.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W23": {
+      "ward_id": "W23",
+      "ward_name": "Ward-W23",
+      "population": 51357,
+      "lat": 6.9272599999999995,
+      "lon": 79.83932,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 54.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 52.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 64.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": null,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 98.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 54.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 48.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 49.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 39.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 49.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 57.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 55.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 51.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W24": {
+      "ward_id": "W24",
+      "ward_name": "Ward-W24",
+      "population": 29603,
+      "lat": 6.92277,
+      "lon": 79.83519,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 28.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 29.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 13.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 22.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 29.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 33.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 29.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 25.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 22.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 25.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": null,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 45.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 30.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W25": {
+      "ward_id": "W25",
+      "ward_name": "Ward-W25",
+      "population": 59964,
+      "lat": 6.91522,
+      "lon": 79.82300000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 58.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 51.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 46.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 50.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 43.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": null,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 41.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 94.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 50.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 50.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 56.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 60.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 60.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W26": {
+      "ward_id": "W26",
+      "ward_name": "Ward-W26",
+      "population": 70328,
+      "lat": 6.92523,
+      "lon": 79.85497000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 82.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 90.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 92.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 95.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 83.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 72.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 96.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 88.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 94.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 78.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": null,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 168.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 95.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W27": {
+      "ward_id": "W27",
+      "ward_name": "Ward-W27",
+      "population": 192149,
+      "lat": 6.9181099999999995,
+      "lon": 79.84861000000001,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 128.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 113.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 140.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 141.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 124.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 140.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": null,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 250.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 163.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 143.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 127.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 145.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 155.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W28": {
+      "ward_id": "W28",
+      "ward_name": "Ward-W28",
+      "population": 66271,
+      "lat": 6.907509999999999,
+      "lon": 79.85066,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 34.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 35.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": null,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 71.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 38.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 36.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 39.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 42.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 29.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 25.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 40.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 41.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 41.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W29": {
+      "ward_id": "W29",
+      "ward_name": "Ward-W29",
+      "population": 44535,
+      "lat": 6.89821,
+      "lon": 79.8508,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": null,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 63.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": 46.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 127.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 59.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 57.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 56.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 45.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 48.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": null,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 116.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 67.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": null,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    },
+    "W30": {
+      "ward_id": "W30",
+      "ward_name": "Ward-W30",
+      "population": 61855,
+      "lat": 6.888999999999999,
+      "lon": 79.8546,
+      "history": [
+        {
+          "date": "2023-09-25",
+          "reported_cases": 29.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-02",
+          "reported_cases": 35.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-09",
+          "reported_cases": null,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-16",
+          "reported_cases": 32.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-23",
+          "reported_cases": 26.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-10-30",
+          "reported_cases": 34.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-06",
+          "reported_cases": 56.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-13",
+          "reported_cases": 26.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-20",
+          "reported_cases": 39.0,
+          "rainfall_mm": 37.1,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-11-27",
+          "reported_cases": 44.0,
+          "rainfall_mm": 45.3,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-04",
+          "reported_cases": 41.0,
+          "rainfall_mm": 12.5,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-11",
+          "reported_cases": 40.0,
+          "rainfall_mm": 20.7,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        },
+        {
+          "date": "2023-12-18",
+          "reported_cases": 34.0,
+          "rainfall_mm": 28.9,
+          "temp_c": 28.5,
+          "humidity_pct": 76.0
+        }
+      ]
+    }
+  }
+}

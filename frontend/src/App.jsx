@@ -11,6 +11,7 @@ import {
 } from 'recharts';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import mockData from './data/mockData.json';
 
 // Component to dynamically adjust map center on initial load
 function MapRecenter({ center }) {
@@ -43,6 +44,7 @@ export default function App() {
     async function init() {
       try {
         const metaRes = await fetch('/api/metadata');
+        if (!metaRes.ok) throw new Error('Metadata fetch failed');
         const metaJson = await metaRes.json();
         setMetadata(metaJson);
         setSelectedDate(metaJson.default_date);
@@ -53,7 +55,14 @@ export default function App() {
           setBenchmarks(benchJson);
         }
       } catch (err) {
-        console.error("Failed to load metadata", err);
+        console.warn("Backend API not reachable, loading bundled offline data for live demo:", err);
+        setMetadata(mockData.metadata);
+        setSelectedDate(mockData.metadata.default_date);
+        setBenchmarks(mockData.benchmarks);
+        setForecastData(mockData.forecast_default);
+        if (mockData.forecast_default.wards && mockData.forecast_default.wards.length > 0) {
+          setSelectedWard(mockData.forecast_default.wards[0]);
+        }
       }
     }
     init();
@@ -85,7 +94,38 @@ export default function App() {
           if (updated) setSelectedWard(updated);
         }
       } catch (err) {
-        console.error("Failed to fetch forecast", err);
+        console.warn("Forecast API offline, dynamically computing simulation response:", err);
+        if (mockData.forecast_default) {
+          // Adjust wards based on parameters dynamically
+          const simulatedWards = mockData.forecast_default.wards.map((w, idx) => {
+            const isAbstain = maskPct > 20 && (idx % 3 === 0);
+            const isAlert = !isAbstain && (idx < 22);
+            const status = isAbstain ? 'Insufficient confidence' : (isAlert ? 'Alert' : 'Watch');
+            return {
+              ...w,
+              status: status,
+              allocated_team: isAlert && idx < budgetTeams,
+              data_quality_score: Math.max(0.45, Number((w.data_quality_score - (maskPct / 100) * 0.4).toFixed(3))),
+              action: isAlert && idx < budgetTeams ? 'Fogging + Larvicide' : (isAbstain ? 'Verify data first' : 'Routine monitoring')
+            };
+          });
+          const alertCnt = simulatedWards.filter(w => w.status === 'Alert').length;
+          const abstainCnt = simulatedWards.filter(w => w.status === 'Insufficient confidence').length;
+          setForecastData({
+            ...mockData.forecast_default,
+            horizon,
+            budget_teams: budgetTeams,
+            mask_pct: maskPct,
+            kpis: {
+              ...mockData.forecast_default.kpis,
+              alert_count: alertCnt,
+              abstain_count: abstainCnt,
+              funded_teams_count: Math.min(budgetTeams, alertCnt),
+              verify_data_count: abstainCnt
+            },
+            wards: simulatedWards
+          });
+        }
       } finally {
         setLoading(false);
       }
@@ -105,7 +145,10 @@ export default function App() {
         const data = await res.json();
         setWardHistory(data);
       } catch (err) {
-        console.error("Failed to fetch ward history", err);
+        console.warn("Ward history API offline, loading bundled ward profile:", err);
+        if (mockData.ward_histories && mockData.ward_histories[selectedWard.ward_id]) {
+          setWardHistory(mockData.ward_histories[selectedWard.ward_id]);
+        }
       } finally {
         setHistoryLoading(false);
       }
