@@ -1,0 +1,9 @@
+{
+  "data_source": "SYNTHETIC",
+  "description": "Synthetic ward-level dengue dataset with dual monsoon seasonality, lagged rainfall dynamics, and realistic reporting artifacts (delays, missingness, batching).",
+  "n_wards": 30,
+  "n_weeks": 312,
+  "start_date": "2018-01-01",
+  "is_synthetic": true,
+  "generated_at": "2026-11-26T12:51:18.284833"
+}
